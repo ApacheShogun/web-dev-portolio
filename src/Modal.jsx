@@ -47,7 +47,10 @@ const Modal = ({
               >
                 visit
               </a>
-              <a href="/">
+              <a href="https://github.com/ApacheShogun/NebulaPoster.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
                 code
               </a>
               <a href="/">
@@ -90,7 +93,10 @@ const Modal = ({
               >
                 visit
               </a>
-              <a href="/">
+              <a href="https://github.com/ApacheShogun/OniQuickChat.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
                 code
               </a>
               <a href="/">

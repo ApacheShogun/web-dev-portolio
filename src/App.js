@@ -87,7 +87,11 @@ function App() {
       <div className={stickNav ? "nav-bar darken" : "nav-bar"}>
         <div className="nav-container">
           <h3 className="logo">Massicot</h3>
-          <GiHamburgerMenu size="2em" className="hamburgerMenu" onClick={toggleSideBar} />
+          <GiHamburgerMenu
+            size="2em"
+            className="hamburgerMenu"
+            onClick={toggleSideBar}
+          />
 
           {/* side bar on small screens */}
           <ul className={sideBar ? "sidebar openSidebar" : "sidebar"}>
@@ -100,10 +104,22 @@ function App() {
               <a href="/">Resume</a>
             </li>
             <li>
-              <a href="/">LinkedIn</a>
+              <a
+                href="https://www.linkedin.com/in/kahlilmassicot"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a href="/">Github</a>
+              <a
+                href="https://github.com/ApacheShogun"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
             </li>
           </ul>
           <div
@@ -116,10 +132,22 @@ function App() {
               <a href="/">Resume</a>
             </li>
             <li>
-              <a href="/">LinkedIn</a>
+              <a
+                href="https://www.linkedin.com/in/kahlilmassicot"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a href="/">Github</a>
+              <a
+                href="https://github.com/ApacheShogun"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
             </li>
           </ul>
         </div>
@@ -130,10 +158,14 @@ function App() {
           <p>
             <strong>Hello!</strong> I am Kahlil Massicot
           </p>
-          <h1>Front-end Web Developer</h1>
+          <h1>Front-End Web Developer</h1>
           <div className="btn-container">
-            <a href="#projects" className="project-btn">projects</a>
-            <a href="#contact" className="contact-btn">contact</a>
+            <a href="#projects" className="project-btn">
+              projects
+            </a>
+            <a href="#contact" className="contact-btn">
+              contact
+            </a>
           </div>
         </div>
       </div>
@@ -189,7 +221,7 @@ function App() {
       </div>
 
       <div className="project-section" id="projects">
-        <h2 >Projects</h2>
+        <h2>Projects</h2>
         <div className="website-wrapper">
           <div className="website" onClick={() => openWebsite1()}>
             <img
@@ -267,8 +299,21 @@ function App() {
       <div className="footer">
         <h2>my email: massicot.kahlil@gmail.com</h2>
         <div className="footer-icons">
-          <AiFillGithub size="2em" />
-          <AiFillLinkedin size="2em" />
+          <a
+            href="https://github.com/ApacheShogun"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub size="2em" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/kahlilmassicot"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillLinkedin size="2em" />
+          </a>
         </div>
       </div>
     </div>

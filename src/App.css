@@ -123,6 +123,10 @@ html {
     color: #fff;
     text-decoration: none;
   }
+
+  .nav-links a:hover{
+    color: aquamarine;
+  }
 }
 
 /* MAIN SECTION */
@@ -555,5 +559,13 @@ html {
   display: flex;
   justify-content: center;
   gap: 1em;
+}
+
+.footer-icons a {
+  color: #fff;
+}
+
+.footer-icons a:hover{
+  color: orange;
 }
     
