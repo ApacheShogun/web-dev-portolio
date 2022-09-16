@@ -129,7 +129,13 @@ function App() {
 
           <ul className="nav-links">
             <li>
-              <a href="/">Resume</a>
+              <a
+                href="https://drive.google.com/file/d/1aoqw2HsSQfAzy7yu2Tuz4EQ99QYlS5qO/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
             </li>
             <li>
               <a
@@ -175,8 +181,10 @@ function App() {
           <div className="about-me">
             <h2>About Me</h2>
             <div className="img-circle">
-              <img src={require('./assets/devPerson.jpg')} alt="kahlil massicot" />
-              
+              <img
+                src={require("./assets/devPerson.jpg")}
+                alt="kahlil massicot"
+              />
             </div>
           </div>
 
