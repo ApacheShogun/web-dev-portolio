@@ -41,19 +41,25 @@ const Modal = ({
               the ORM.
             </p>
             <div className="modal-btn-box">
-              <a href="https://nebulaposter.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              <a
+                href="https://nebulaposter.com"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 visit
               </a>
-              <a href="https://github.com/ApacheShogun/NebulaPoster.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              <a
+                href="https://github.com/ApacheShogun/NebulaPoster.com"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 code
               </a>
-              <a href="/">
+              <a
+                href="https://youtu.be/wHdbJ9fCrCs"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 demo
               </a>
             </div>
@@ -87,19 +93,25 @@ const Modal = ({
               websocket messaging.
             </p>
             <div className="modal-btn-box">
-            <a href="https://oniquickchat.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              <a
+                href="https://oniquickchat.com"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 visit
               </a>
-              <a href="https://github.com/ApacheShogun/OniQuickChat.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              <a
+                href="https://github.com/ApacheShogun/OniQuickChat.com"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 code
               </a>
-              <a href="/">
+              <a
+                href="https://youtu.be/bbXJwtLEW7A"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 demo
               </a>
             </div>

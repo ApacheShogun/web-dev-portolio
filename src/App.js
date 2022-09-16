@@ -174,7 +174,10 @@ function App() {
         <div className="about-flex">
           <div className="about-me">
             <h2>About Me</h2>
-            <div className="img-circle"></div>
+            <div className="img-circle">
+              <img src={require('./assets/devPerson.jpg')} alt="kahlil massicot" />
+              
+            </div>
           </div>
 
           <div className="about-content">
